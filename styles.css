@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.quebra-cabeca{
+    width: 900px;
+    height: 500px;
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+body{  
+    display: flex;
+    justify-content: center; 
+    /*align-items: center;*/
+    /*flex-direction: row;*/
+    /*flex-wrap: wrap;*/       
+}
+
+/*A propriedade “display:flex” também  denominada de 
+flexbox permite layout lexível onde os elementos 
+responsivos dentro de um contêiner sejam organizados 
+automaticamente, dependendo do elemento pai (ou tela).*/
+
+/*A propriedade “flex-wrap:wrap” define se os itens flexíveis 
+são forçados a ficarem na mesma linha ou se podem ser quebradas 
+em várias linhas, com o valor dessa propriedade como wrap, 
+os valores são quebrados em linhas.*/
